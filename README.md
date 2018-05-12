@@ -15,3 +15,7 @@ Learning, practice and tutorials for Mocha, Chai and Nightmare.js
 * Run the tests:
 
 `npm test`
+
+# Notes
+
+* Avoid arrow functions, they are not intended for mocha
