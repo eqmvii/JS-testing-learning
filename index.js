@@ -19,3 +19,14 @@ function disemvowel(string) {
     return string.replace(/[aeiou]/g, '');
 }
 module.exports.disemvowel = disemvowel;
+
+// returns the string in title case
+function titelize(string) {
+    stringArr = string.split(' ');
+    for (let i = 0; i < stringArr.length; i++) {
+        stringArr[i] = stringArr[i].toLowerCase();
+        stringArr[i] = stringArr[i][0].toUpperCase() + stringArr[i].substring(1);
+    }
+    return stringArr.join(' ');
+}
+module.exports.titelize = titelize;
