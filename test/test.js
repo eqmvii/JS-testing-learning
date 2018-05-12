@@ -45,37 +45,29 @@ describe('disemvowel', function () {
     it('should return bbb when called with "ababab"', function () {
         assert.equal(testFuncs.disemvowel("ababab"), "bbb");
     });
-});
 
-describe('disemvowel', function () {
     it('should return bqtrz when called with "bqtrz"', function () {
         assert.equal(testFuncs.disemvowel("bqtrz"), "bqtrz");
     });
-});
 
-describe('disemvowel', function () {
     it('should return an empty string when called with "eee"', function () {
         assert.equal(testFuncs.disemvowel("eee"), "");
     });
 });
 
+
 // Titelize
 
 describe('titelize', function () {
-    it('should return "Hello" when called with "hello"', function () {
+    it('should titlecase a string', function () {
         assert.equal(testFuncs.titelize("hello"), "Hello");
     });
-});
 
-describe('titelize', function () {
-    it('should return "Good Morning!" when called with "gOOD MORNiNG!"', function () {
+    it('should titlecase a string', function () {
         assert.equal(testFuncs.titelize("gOOD MORNiNG!"), "Good Morning!");
     });
-});
 
-describe('titelize', function () {
-    it('should return "I Am Tired And I Want To Go To Bed" when called with "i am tired and i want to go to bed"', function () {
+    it('should titlecase a string', function () {
         assert.equal(testFuncs.titelize("i am tired and i want to go to bed"), "I Am Tired And I Want To Go To Bed");
     });
 });
-
