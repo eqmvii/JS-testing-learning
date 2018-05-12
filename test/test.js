@@ -35,4 +35,20 @@ describe('multiplier', function () {
     });
 });
 
+describe('disemvowel', function () {
+    it('should return bbb when called with ababab', function () {
+        assert.equal(testFuncs.disemvowel("ababab"), "bbb");
+    });
+});
 
+describe('disemvowel', function () {
+    it('should return bqtrz when called with bqtrz', function () {
+        assert.equal(testFuncs.disemvowel("bqtrz"), "bqtrz");
+    });
+});
+
+describe('disemvowel', function () {
+    it('should return an empty string when called with eee', function () {
+        assert.equal(testFuncs.disemvowel("eee"), "");
+    });
+});
