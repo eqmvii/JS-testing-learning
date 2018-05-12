@@ -1,0 +1,22 @@
+{
+  "name": "testing-mocha-chai-nightmare",
+  "version": "1.0.0",
+  "description": "learning about js testing frameworks",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eqmvii/JS-testing-learning.git"
+  },
+  "author": "eqmvii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eqmvii/JS-testing-learning/issues"
+  },
+  "homepage": "https://github.com/eqmvii/JS-testing-learning#readme"
+}
